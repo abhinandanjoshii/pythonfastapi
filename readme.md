@@ -61,7 +61,7 @@ docker build -t <name of image> .
 Once the image is built, you can run the container using the following command:
 
 ```bash
-docker run -d -p 8000:8000 fastapi_template:latest
+docker run -d -p 8000:8000 <name of image>:latest
 ```
 
 -d: Runs the container in detached mode.
